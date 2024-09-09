@@ -1,0 +1,16 @@
+import { toHaveErrorMessage } from "@testing-library/jest-dom/dist/matchers"
+import { useEffect } from "react"
+import { useLocation, useNavigate } from "react-router-dom"
+
+CamelCase means the name start with small continution with capital
+<select ref={stateSelectRef} onChange={()=>{
+                console.log(stateSelectRef.current.value);
+            }}></select>
+useRef is a Reacthook  -->useRef() 
+                       -->useEffect();
+                       -->useNavigate();
+                       -->useLocation();these are ready to use functions
+
+useRef is reference to the elemants 
+elements meants stating and ending tag also the content in between them 
+ useState means it is a special variable
